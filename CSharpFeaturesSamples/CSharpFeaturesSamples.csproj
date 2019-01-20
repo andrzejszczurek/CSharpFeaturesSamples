@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Algorithms.cs" />
+    <Compile Include="Features\Arrays\ArraySample.cs" />
+    <Compile Include="Features\AttributeSample\AttributeSample.cs" />
+    <Compile Include="Features\DestructorSample.cs" />
+    <Compile Include="Features\DisposableSample.cs" />
+    <Compile Include="Features\Indexier\IndexierSample.cs" />
+    <Compile Include="Features\MethodSamples.cs" />
+    <Compile Include="Features\UsingSamples.cs" />
+    <Compile Include="Features\YieldSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
